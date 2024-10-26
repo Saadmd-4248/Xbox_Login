@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #107C10;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    height: 35px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 255, 221, 0.8);
+    width: 380px;
+}
+
+.microsoft-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn button {
+    width: 45%;
+    padding: 10px;
+    background-color: #0078D4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-left: 165px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #005A9E;
+}
+
+form p {
+    font-size: 14px;
+}
+
+form p a {
+    color: #0078D4;
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
